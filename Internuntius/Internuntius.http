@@ -1,0 +1,6 @@
+@Internuntius_HostAddress = http://localhost:5030
+
+GET {{Internuntius_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
