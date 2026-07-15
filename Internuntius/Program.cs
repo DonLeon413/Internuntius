@@ -12,8 +12,8 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi(); // Генерирует JSON
-    app.MapScalarApiReference(); // Заменяет Swagger UI
+    app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 
